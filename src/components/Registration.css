@@ -1,0 +1,116 @@
+.registration {
+  background: var(--bg-section);
+}
+
+.reg-form {
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.form-group input {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 1rem;
+  color: var(--text-primary);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+}
+
+.form-group input::placeholder {
+  color: #555570;
+}
+
+.form-group input:focus {
+  border-color: var(--neon-teal);
+  box-shadow: 0 0 0 3px rgba(0, 245, 212, 0.1);
+}
+
+.form-group input.error {
+  border-color: #ff4d6d;
+}
+
+.error-msg {
+  font-size: 0.82rem;
+  color: #ff4d6d;
+}
+
+.btn-submit {
+  background: linear-gradient(135deg, var(--neon-teal), #00c4aa);
+  color: #0a0a0f;
+  border: none;
+  padding: 16px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 0 30px rgba(0, 245, 212, 0.3);
+  letter-spacing: 0.02em;
+  margin-top: 0.5rem;
+}
+
+.btn-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 50px rgba(0, 245, 212, 0.5);
+}
+
+.success-message {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px solid var(--neon-teal);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+}
+
+.success-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(0, 245, 212, 0.15);
+  border: 2px solid var(--neon-teal);
+  color: var(--neon-teal);
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.success-message h3 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--neon-teal);
+  margin-bottom: 1rem;
+}
+
+.success-message p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.success-message strong {
+  color: var(--text-primary);
+}
