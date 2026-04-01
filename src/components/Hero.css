@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -19,8 +19,8 @@
 .hero-content {
   position: relative;
   z-index: 1;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .hero-badge {
