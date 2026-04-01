@@ -2,7 +2,7 @@ import './About.css'
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="container">
         <h2 className="section-title">About NexusConf</h2>
         <div className="about-grid">

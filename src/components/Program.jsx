@@ -43,7 +43,7 @@ const typeColors = {
 
 function Program() {
   return (
-    <section className="program">
+    <section className="program" id="program">
       <div className="container">
         <h2 className="section-title">Program Schedule</h2>
         <div className="timeline">

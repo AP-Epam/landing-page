@@ -37,7 +37,7 @@ const speakers = [
 
 function Speakers() {
   return (
-    <section className="speakers">
+    <section className="speakers" id="speakers">
       <div className="container">
         <h2 className="section-title">Speakers</h2>
         <div className="speakers-grid">

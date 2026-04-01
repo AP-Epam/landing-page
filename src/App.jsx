@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Program from './components/Program'
@@ -8,6 +9,7 @@ import Registration from './components/Registration'
 function App() {
   return (
     <>
+      <Navbar />
       <Hero />
       <About />
       <Program />
