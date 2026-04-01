@@ -7,7 +7,7 @@ const speakers = [
     company: 'QuantumStack',
     bio: 'Alex has spent 15 years building large-scale distributed systems. At QuantumStack she leads a 200-person engineering org pushing the frontier of real-time data infrastructure.',
     initials: 'AR',
-    color: '#7b2ff7',
+    color: '#0078c2',
   },
   {
     name: 'Maya Chen',
@@ -15,7 +15,7 @@ const speakers = [
     company: 'NovaTech',
     bio: 'Maya is a recognized expert in machine learning platform engineering. She has led the deployment of LLM infrastructure serving over 10 million daily active users.',
     initials: 'MC',
-    color: '#00f5d4',
+    color: '#8453d2',
   },
   {
     name: 'Jordan Kim',
@@ -23,7 +23,7 @@ const speakers = [
     company: 'OpenMind Labs',
     bio: 'Jordan founded OpenMind Labs to make AI tooling accessible to every developer. An open-source contributor and advocate, Jordan has starred in over 40 developer conferences worldwide.',
     initials: 'JK',
-    color: '#f97316',
+    color: '#0047ff',
   },
   {
     name: 'Sam Patel',
@@ -31,7 +31,7 @@ const speakers = [
     company: 'DeepSphere',
     bio: "Sam's research on efficient transformer architectures has been cited over 3,000 times. At DeepSphere, he bridges the gap between research breakthroughs and production-ready AI systems.",
     initials: 'SP',
-    color: '#ec4899',
+    color: '#00a0d4',
   },
 ]
 

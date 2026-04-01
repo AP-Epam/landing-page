@@ -4,28 +4,26 @@
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(10, 10, 15, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(123, 47, 247, 0.2);
+  background: #fbfafa;
+  border-bottom: 1px solid #000;
 }
 
 .navbar-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 75px;
 }
 
 .navbar-logo {
   font-size: 1.1rem;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--text-primary);
-  letter-spacing: -0.01em;
+  letter-spacing: 0.02em;
 }
 
 .navbar-logo span {
-  background: linear-gradient(90deg, var(--neon-teal), var(--neon-purple));
+  background: linear-gradient(90deg, var(--epam-blue), var(--epam-blue-dark));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -35,42 +33,46 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.25rem;
 }
 
 .navbar-links button {
   background: none;
   border: none;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-weight: 500;
-  padding: 6px 14px;
-  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  font-weight: 400;
+  padding: 6px 16px;
+  border-radius: 0;
   cursor: pointer;
   transition: color 0.2s;
   font-family: inherit;
+  letter-spacing: 0.04em;
 }
 
 .navbar-links button:hover {
-  color: var(--text-primary);
+  color: var(--epam-blue);
 }
 
 .navbar-links button.active {
-  color: var(--neon-teal);
-  background: rgba(0, 245, 212, 0.08);
+  color: var(--epam-blue);
+  font-weight: 700;
 }
 
 .navbar-cta {
-  background: linear-gradient(135deg, var(--neon-purple), #5a1db5) !important;
+  background: linear-gradient(90deg, var(--epam-blue), var(--epam-blue-dark)) !important;
   color: #fff !important;
   font-weight: 700 !important;
-  box-shadow: 0 0 20px rgba(123, 47, 247, 0.3);
-  transition: box-shadow 0.2s, transform 0.2s !important;
+  border-radius: 100px !important;
+  padding: 10px 28px !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  font-size: 0.75rem !important;
+  transition: opacity 0.2s !important;
 }
 
 .navbar-cta:hover {
-  box-shadow: 0 0 35px rgba(123, 47, 247, 0.5) !important;
-  transform: translateY(-1px);
+  opacity: 0.85 !important;
 }
 
 @media (max-width: 640px) {
