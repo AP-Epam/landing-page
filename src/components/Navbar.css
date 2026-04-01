@@ -55,6 +55,11 @@
   color: var(--text-primary);
 }
 
+.navbar-links button.active {
+  color: var(--neon-teal);
+  background: rgba(0, 245, 212, 0.08);
+}
+
 .navbar-cta {
   background: linear-gradient(135deg, var(--neon-purple), #5a1db5) !important;
   color: #fff !important;
