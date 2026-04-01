@@ -5,6 +5,7 @@ import Program from './components/Program'
 import Speakers from './components/Speakers'
 import FAQ from './components/FAQ'
 import Registration from './components/Registration'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Speakers />
       <FAQ />
       <Registration />
+      <Footer />
     </>
   )
 }
