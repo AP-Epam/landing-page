@@ -1,5 +1,5 @@
 .about {
-  background: var(--bg-section);
+  background: var(--bg-light);
 }
 
 .about-grid {
@@ -11,9 +11,10 @@
 
 .about-text p {
   color: var(--text-muted);
-  font-size: 1.05rem;
+  font-size: 1rem;
   margin-bottom: 1.25rem;
   line-height: 1.8;
+  font-weight: 300;
 }
 
 .about-text p:last-child {
@@ -27,25 +28,27 @@
 }
 
 .stat-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  background: var(--bg-white);
+  border: none;
+  border-bottom: 3px solid var(--epam-blue);
+  border-radius: 0;
   padding: 1.75rem;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
   text-align: center;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, transform 0.2s;
 }
 
 .stat-card:hover {
-  border-color: var(--neon-teal);
+  border-color: var(--epam-purple);
+  transform: translateY(-2px);
 }
 
 .stat-number {
   font-size: 2.5rem;
-  font-weight: 800;
-  background: linear-gradient(90deg, var(--neon-teal), var(--neon-purple));
+  font-weight: 100;
+  background: linear-gradient(90deg, var(--epam-blue), var(--epam-blue-dark));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -53,11 +56,11 @@
 }
 
 .stat-label {
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {

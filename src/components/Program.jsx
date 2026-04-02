@@ -27,18 +27,18 @@ const sessions = [
   },
   {
     time: '16:30',
-    title: 'Closing Talk: What's Next — Predictions for the Next Decade',
+    title: "Closing Talk: What's Next — Predictions for the Next Decade",
     speaker: 'Alex Rivera',
     type: 'Talk',
   },
 ]
 
 const typeColors = {
-  Keynote: '#7b2ff7',
-  Workshop: '#00f5d4',
-  Break: '#444466',
-  Panel: '#f97316',
-  Talk: '#7b2ff7',
+  Keynote: '#0078c2',
+  Workshop: '#8453d2',
+  Break: '#9b9b9b',
+  Panel: '#0047ff',
+  Talk: '#0078c2',
 }
 
 function Program() {

@@ -5,22 +5,26 @@
 }
 
 :root {
-  --neon-teal: #00f5d4;
-  --neon-purple: #7b2ff7;
-  --bg-dark: #0a0a0f;
-  --bg-section: #111127;
-  --bg-card: #1a1a2e;
-  --text-primary: #f0f0f0;
-  --text-muted: #9090b0;
-  --border: rgba(123, 47, 247, 0.3);
+  --epam-blue: #0078c2;
+  --epam-blue-dark: #0047ff;
+  --epam-purple: #8453d2;
+  --epam-cyan: #00f6ff;
+  --bg-white: #ffffff;
+  --bg-light: #fbfafa;
+  --bg-dark: #060606;
+  --text-primary: #060606;
+  --text-muted: #5a5a5a;
+  --border: #e0e0e0;
   --max-width: 1200px;
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, sans-serif;
-  background: var(--bg-dark);
+  font-family: 'MuseoSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: var(--bg-white);
   color: var(--text-primary);
   line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 0.02em;
 }
 
 .container {
@@ -35,13 +39,11 @@ section {
 
 .section-title {
   font-size: 2.2rem;
-  font-weight: 700;
+  font-weight: 100;
   text-align: center;
   margin-bottom: 3rem;
-  background: linear-gradient(90deg, var(--neon-teal), var(--neon-purple));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
 @media (max-width: 768px) {
